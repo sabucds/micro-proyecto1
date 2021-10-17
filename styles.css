@@ -73,7 +73,7 @@ body {
 .arrow {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 300px;
   margin-top: -35px;
   height: 60px;
   width: 60px;
@@ -91,4 +91,50 @@ body {
 
   right: 0;
   margin-right: 30px;
+}
+
+.experience {
+  width: 100%;
+  height: auto;
+}
+.my_projects {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d8f8e1;
+}
+.project {
+  padding: 50px;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.project_data {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.project_image {
+  height: 300px;
+  width: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.project1 {
+  background-image: url("/img/cover\ 13.png");
+}
+.project2 {
+  background-image: url("/img/cover\ 12.png");
+}
+.colored {
+  background: #ebebeb;
 }
