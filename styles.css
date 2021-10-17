@@ -14,11 +14,11 @@ body {
   width: 100%;
   background: #fafafa;
   position: relative;
-
-  font-size: 14px;
+  font-size: 16px;
 }
 .nav_bar {
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   width: 100%;
@@ -28,7 +28,7 @@ body {
   display: flex;
 }
 .nav_name {
-  width: 40%;
+  width: 30%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -38,8 +38,7 @@ body {
 
 .nav_wrapper {
   height: 100%;
-  width: 60%;
-  padding-right: 70px;
+  width: 70%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -48,7 +47,6 @@ body {
   float: left;
   text-align: center;
   padding: 14px 16px;
-  font-size: 17px;
 }
 
 .section:hover {
@@ -133,7 +131,7 @@ body {
   align-items: center;
   background: #97caa5;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
 }
 .project {
   padding: 50px;
@@ -257,4 +255,87 @@ body {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
+}
+.contact_section {
+  display: flex;
+  align-items: center;
+}
+.form {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social_media {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.redes {
+  height: 100px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.redd {
+  height: 50px;
+  width: 50px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.r1 {
+  cursor: pointer;
+  background-image: url("/img/instai.jpg");
+}
+.r2 {
+  cursor: pointer;
+  margin-left: 50px;
+  background-image: url("/img/wha.png");
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+input {
+  padding: 0.5em;
+  border: solid 1px #dfdfdf;
+  border-radius: 5px;
+}
+
+input[type="email"],
+[type="text"] {
+  width: 300px;
+}
+
+textarea {
+  border-radius: 5px;
+  min-height: 8em;
+  width: 300px;
+  padding: 0.5em;
+  border: solid 1px #dfdfdf;
+}
+input[type="submit"],
+[type="reset"] {
+  cursor: pointer;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+.gmail_number {
+  text-align: center;
+  margin-top: 30px;
+}
+.number_t {
+  margin-top: 30px;
+}
+.gmail_number h2 {
+  margin-bottom: 10px;
 }

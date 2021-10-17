@@ -58,7 +58,6 @@ function clonar(skills) {
   var section = document.getElementById("skill_section");
   var box = document.getElementById("skill_box");
 
-  console.log(skills.length);
   for (let i = 0; i < skills.length; i++) {
     var clon = box.cloneNode("skill_box");
     document.getElementById("circle").style.strokeDashoffset =
@@ -70,3 +69,19 @@ function clonar(skills) {
   }
 }
 clonar(skills);
+
+const form = document.getElementById("submit_form");
+
+form.addEventListener("submit", (event) => {
+  console.log(document.getElementById("submit_form"));
+  var empt = document.forms["form1"]["nombre"].value;
+  var empt1 = document.forms["form1"]["email"].value;
+  var empt2 = document.forms["form1"]["areatexto"].value;
+  if (empt == "" || empt1 == "" || empt2 == "") {
+    alert("Error, llene todos los campos");
+    return false;
+  } else {
+    alert("Se ha enviado con exito");
+    return true;
+  }
+});
