@@ -76,10 +76,10 @@ body {
   background-image: url("img/unnamed.jpg");
 }
 .slide2 {
-  background-image: url("img/download.jpg");
+  background-image: url("img/Web-Development.jpg");
 }
 .slide3 {
-  background-image: url("img/d3.jpg");
+  background-image: url("img/coding-platform-STEM-code.jpg");
 }
 
 .slide-content {
@@ -128,7 +128,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #d8f8e1;
+  background: #97caa5;
+  color: white;
+  font-size: 20px;
 }
 .project {
   padding: 50px;
