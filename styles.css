@@ -74,13 +74,13 @@ body {
 }
 
 .slide1 {
-  background-image: url("img/unnamed.jpg");
+  background-image: url("./img/unnamed.jpg");
 }
 .slide2 {
-  background-image: url("img/Web-Development.jpg");
+  background-image: url("./img/Web-Development.jpg");
 }
 .slide3 {
-  background-image: url("img/coding-platform-STEM-code.jpg");
+  background-image: url("./img/coding-platform-STEM-code.jpg");
 }
 
 .slide-content {
@@ -159,13 +159,13 @@ body {
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
 }
 .project1 {
-  background-image: url("/img/calculator.png");
+  background-image: url("./img/calculator.png");
 }
 .project2 {
-  background-image: url("/img/insta.png");
+  background-image: url("./img/insta.png");
 }
 .project3 {
-  background-image: url("/img/news.png");
+  background-image: url("./img/news.png");
 }
 .my_image {
   height: 300px;
@@ -174,7 +174,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 20px;
-  background-image: url("img/foto.jpeg");
+  background-image: url("./img/foto.jpeg");
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
 }
 .colored {
