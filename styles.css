@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
 
 body {
@@ -19,13 +20,35 @@ body {
   height: 50px;
   background: #fff;
   border-bottom: 1px solid #dfdfdf;
+  display: flex;
 }
+.nav_name {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  font-size: large;
+}
+
 .nav_wrapper {
   height: 100%;
-  width: 100%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+.section {
+  float: left;
+
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+.section:hover {
+  background-color: rgb(114, 114, 114);
+  color: white;
 }
 
 .slide-content {
