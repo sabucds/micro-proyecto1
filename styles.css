@@ -339,3 +339,14 @@ input[type="submit"],
 .gmail_number h2 {
   margin-bottom: 10px;
 }
+
+.project_data a {
+  color: white;
+  font-weight: bold;
+  width: 220px;
+  height: 40px;
+  background-color: #97caa5;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin-left: 190px;
+}
