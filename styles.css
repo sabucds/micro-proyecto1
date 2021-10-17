@@ -6,6 +6,10 @@
   font-family: "Courier New", Courier, monospace;
 }
 
+a {
+  color: black;
+}
+
 body {
   width: 100%;
   background: #fafafa;
@@ -42,7 +46,6 @@ body {
 }
 .section {
   float: left;
-  color: black;
   text-align: center;
   padding: 14px 16px;
   font-size: 17px;
