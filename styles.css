@@ -49,8 +49,7 @@ body {
 }
 
 .section:hover {
-  background-color: rgb(114, 114, 114);
-  color: white;
+  background-color: #d8f8e1;
 }
 
 .slide-content {
@@ -118,12 +117,12 @@ body {
   margin-right: 30px;
 }
 
-.experience {
+.main_section {
   width: 100%;
   height: auto;
 }
-.my_projects {
-  height: 100px;
+.main_title {
+  height: 150px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -163,6 +162,27 @@ body {
 .project3 {
   background-image: url("/img/news.png");
 }
+.my_image {
+  height: 300px;
+  width: 30%;
+  margin-left: 300px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  background-image: url("img/foto.jpeg");
+}
 .colored {
   background: #ebebeb;
+}
+
+.mine {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  align-items: center;
+}
+.my_data {
+  text-align: left;
+  margin-left: 100px;
 }
