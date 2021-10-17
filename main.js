@@ -47,3 +47,26 @@ arrowRight.addEventListener("click", function () {
 });
 
 startSlide();
+
+const skills = [
+  { skill: "CSS", progress: "60%", num: 60 },
+  { skill: "JavaScript", progress: "40%", num: 40 },
+  { skill: "Python", progress: "90%", num: 90 },
+];
+
+function clonar(skills) {
+  var section = document.getElementById("skill_section");
+  var box = document.getElementById("skill_box");
+
+  console.log(skills.length);
+  for (let i = 0; i < skills.length; i++) {
+    var clon = box.cloneNode("skill_box");
+    document.getElementById("circle").style.strokeDashoffset =
+      440 - (440 * skills[i].num) / 100;
+    document.getElementById("percentage").innerHTML = skills[i].progress;
+    document.getElementById("text_progress").innerHTML = skills[i].skill;
+
+    section.appendChild(clon);
+  }
+}
+clonar(skills);
