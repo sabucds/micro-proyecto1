@@ -167,6 +167,7 @@ body {
 .project3 {
   background-image: url("./img/news.png");
 }
+
 .my_image {
   height: 300px;
   width: 30%;
@@ -290,12 +291,12 @@ body {
 }
 .r1 {
   cursor: pointer;
-  background-image: url("/img/instai.jpg");
+  background-image: url("./img/instai.jpg");
 }
 .r2 {
   cursor: pointer;
   margin-left: 50px;
-  background-image: url("/img/wha.png");
+  background-image: url("./img/wha.png");
 }
 
 label {
